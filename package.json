@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "build": "echo \"Building...\" && exit 0",
-    "test": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest --coverage && coveralls < coverage/lcov.info",
+    "test:local": "jest --coverage"
   },
   "keywords": [],
   "author": "",
